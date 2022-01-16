@@ -30,9 +30,6 @@ createApp({
             .catch((err)=>{
                 alert(err.data.mesage);
             })
-        },
-        openProduct(item){
-            this.tempProduct = item;
         }
     },
     mounted(){
